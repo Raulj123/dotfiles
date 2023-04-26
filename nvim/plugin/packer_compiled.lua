@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/Users/rauljarquin/.local/share/nvim/site/pack/packer/start/Comment.nvim",
     url = "https://github.com/numToStr/Comment.nvim"
   },
+  ["lualine.nvim"] = {
+    loaded = true,
+    path = "/Users/rauljarquin/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+    url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
   ["nvim-tree.lua"] = {
     loaded = true,
     path = "/Users/rauljarquin/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
@@ -98,6 +103,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/rauljarquin/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
+  },
+  ["telescope-fzf-native.nvim"] = {
+    loaded = true,
+    path = "/Users/rauljarquin/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim",
+    url = "https://github.com/nvim-telescope/telescope-fzf-native.nvim"
+  },
+  ["telescope.nvim"] = {
+    loaded = true,
+    path = "/Users/rauljarquin/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    url = "https://github.com/nvim-telescope/telescope.nvim"
   },
   ["vim-ReplaceWithRegister"] = {
     loaded = true,
