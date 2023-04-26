@@ -1,3 +1,6 @@
+require("Raul.plugins-setup")
 require("Raul.core.options")
 require("Raul.core.keymaps")
 require("Raul.core.colorscheme")
+require("Raul.plugins.comment")
+require("Raul.plugins.nvim-tree")
