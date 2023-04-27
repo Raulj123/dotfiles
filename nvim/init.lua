@@ -10,4 +10,4 @@ require("Raul.plugins.nvim-cmp")
 require("Raul.plugins.lsp.mason")
 require("Raul.plugins.lsp.lspsaga")
 require("Raul.plugins.lsp.lspconfig")
-
+require("Raul.plugins.lsp.null-ls")
