@@ -6,3 +6,8 @@ require("Raul.plugins.comment")
 require("Raul.plugins.nvim-tree")
 require("Raul.plugins.lualine")
 require("Raul.plugins.telescope")
+require("Raul.plugins.nvim-cmp")
+require("Raul.plugins.lsp.mason")
+require("Raul.plugins.lsp.lspsaga")
+require("Raul.plugins.lsp.lspconfig")
+
