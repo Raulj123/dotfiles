@@ -1,7 +1,7 @@
 vim.g.mapleader = " "
-local keymap = vim.keymap 
+local keymap = vim.keymap
 
- -- gen keymaps 
+-- gen keymaps
 keymap.set("i", "jk", "<ESC>")
 
 keymap.set("n", "<leader>nh", ":nohl<CR>")
@@ -24,8 +24,8 @@ keymap.set("n", "<leader>tp", ":tabp<CR>") --  go to previous tab
 
 -- plugin keymaps
 --
--- vim-maximizer 
-keymap.set("n","<leader>sm", ":MaximizerToggle<CR>")
+-- vim-maximizer
+keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>")
 
 -- nvim tree
 keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
