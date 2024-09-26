@@ -99,3 +99,27 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias c="clear"
+alias e="exit"
+alias n="nvim"
+
+# tmux key bindkey
+alias t="tmux"
+alias tn="tmux new-session -s $1"
+alias ta="tmux attach -t $1"
+alias tl="tmux list-sessions"
+alias reL="tmux resize-pane -L $1"
+alias reR="tmux resize-pane -R $1"
+alias reD="tmux resize-pane -D $1"
+alias reU="tmux resize-pane -U $1"
+
+
+# homebrew update and upgrade
+alias up="sh ~/.update.sh"
+
+# git
+alias ga="git add ."
+alias gac="git add . && git commit -m $1"
+alias gs="git status"
+alias gpo="git push origin $1"
+
